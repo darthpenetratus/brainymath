@@ -1,6 +1,7 @@
 # Brainymath
 
 A mathematical platform that is designed for people who are interested in mathematics and want to get better at it.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3.
 
 ## Development server
