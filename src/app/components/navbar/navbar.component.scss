@@ -1,0 +1,45 @@
+$primary-color: #012345;
+$hover-color: #F3F3F3;
+$text-color: #333;
+$background-color: white;
+$shadow-color: rgba(0, 0, 0, 0.1);
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $background-color;
+  height: 60px;
+  padding: 0 12px;
+  box-shadow: 0 2px 4px $shadow-color;
+
+  .logo img {
+    width: 108px;
+    height: 36px;
+    margin-top: 3px;
+  }
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+.sign-in, .sign-up {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 8px;
+  color: white;
+  background-color: $primary-color;
+}
+
+.sign-up {
+  background-color: transparent;
+  color: $text-color;
+  margin-right: 12px;
+
+  &:hover {
+    background-color: $hover-color;
+  }
+}
